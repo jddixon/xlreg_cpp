@@ -134,9 +134,23 @@ systems programming language incorporating certain features of
 revolutionary **CSP**,
 [Communicating Sequential Processes](http://www.usingcsp.com).
 
-## Source Code
+## Server Source Code
 
-Software developers can currently obtain the xlReg source code at
-[xlattice_go's website](https://github.com/jddixon/xlattice_go/) on github
+Software developers can currently obtain the xlReg server source code at
+[xlattice_go's Github page](https://github.com/jddixon/xlattice_go/) 
 so that if you are impatient to begin using xlReg you can build and operate
 your own server.
+
+## Client Source Code
+
+This is best obtained through 
+[the client's Github page](https://github.com/jddixon/xlreg_{$smallLang}/).
+
+## Project Status
+
+The xlReg server is currently a good beta: it is reasonably reliable and 
+there are no known serious bugs.
+
+This client is itself pre-alpha: some minimal code exists, but nothing 
+beyond reading the registry credentials (`regCred.dat`) and going through
+the initial hello/reply session with the server, xlReg.
