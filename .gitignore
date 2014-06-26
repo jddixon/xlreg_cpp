@@ -6,3 +6,5 @@ junk*
 .svn*
 *.swp
 *ZZZ
+*.[oa]
+*~
