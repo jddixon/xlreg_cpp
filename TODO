@@ -5,3 +5,5 @@
     * install cmake-2.8.12.2                                            * DONE
     * cp gtest-1.7.0/Makefile .                                         * DONE
     * rename sample1_unittest in Makefile
+    * manually moved CMakeLists.txt into src/ and then ran
+        cmake -i src, which doesn't make cmake happy.  Fix.
