@@ -140,3 +140,7 @@ Software developers can currently obtain the xlReg source code at
 [xlattice_go's website](https://github.com/jddixon/xlattice_go/) on github
 so that if you are impatient to begin using xlReg you can build and operate
 your own server.
+
+## On-line Documentation
+
+More information on the **xlreg_cpp** project can be found [here](https://jddixon.github.io/xlreg_cpp)
