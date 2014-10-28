@@ -5,7 +5,8 @@ junk*
 .posted
 .svn*
 *.swp
+.wrapped
 *ZZZ
 *.[oa]
 *~
-.wrapped
+.sharedev
