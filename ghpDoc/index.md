@@ -1,4 +1,4 @@
-# xlreg_cpp
+<h1 class="libTop">xlreg_cpp</h1>
 
 A C++ client for the xlReg cluster registry.  **xlreg_cpp**
 makes it easy to create new small clusters some or all of whose members are
