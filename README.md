@@ -1,5 +1,5 @@
 xlreg_cpp
-#########
+=========
 
 A C++ client for the xlReg cluster registry.  **xlreg_cpp**
 makes it easy to create new small clusters some or all of whose members are
