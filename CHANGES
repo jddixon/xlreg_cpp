@@ -1,0 +1,12 @@
+# xlreg_cpp/CHANGES
+
+v0.0.2
+    2015-08-04
+        * update README/index.md for xlReg v1.9.9                   SLOC  743
+
+v0.0.1
+    2015-06-18
+        * update .gitignore
+v0.0.0
+    2014-03-06
+        * initial version
