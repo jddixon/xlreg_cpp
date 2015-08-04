@@ -4,5 +4,5 @@
 
 using namespace std;
 
-const std::string VERSION       = "0.0.1";
-const std::string VERSION_DATE  = "2015-06-18";
+const std::string VERSION       = "0.0.2";
+const std::string VERSION_DATE  = "2015-08-04";
