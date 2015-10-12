@@ -1,5 +1,8 @@
 # xlreg_cpp/CHANGES
 
+v0.0.3
+    2015-10-11
+        * update {README,index}.md for xlReg v1.9.10                SLOC  743
 v0.0.2
     2015-08-04
         * update README/index.md for xlReg v1.9.9                   SLOC  743
