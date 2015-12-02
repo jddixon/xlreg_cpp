@@ -1,5 +1,9 @@
 # xlreg_cpp/CHANGES
 
+v0.0.4
+    2015-12-01
+        * add in.the.beginning to set up autoconf stuff
+        * minor edits to *.md                                       SLOC  764
 v0.0.3
     2015-10-11
         * update {README,index}.md for xlReg v1.9.10                SLOC  743
@@ -13,3 +17,4 @@ v0.0.1
 v0.0.0
     2014-03-06
         * initial version
+
