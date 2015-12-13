@@ -1,0 +1,6 @@
+# xlreg_cpp/countem
+
+pySloc $@ -v -C cpp \
+    bash:countem bash:in.the.beginning          \
+    txt:configure.ac txt:Makefile.am txt:src/Makefile.am            \
+    src/xlReg.h src/xlreg_client.cpp

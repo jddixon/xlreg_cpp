@@ -1,5 +1,9 @@
 # xlreg_cpp/TODO
 
+2015-12-05
+    * need simple showVersion executable
+    * this evolves into -V/--showVersion option on xlReg client
+
 2015-10-11
     * need countem script, which should count in.the.beginning
 
