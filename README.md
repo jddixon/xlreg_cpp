@@ -178,4 +178,4 @@ the initial hello/reply session with the server, xlReg.
 ## On-line Documentation
 
 More information on the **xlreg_cpp** project can be found
-[here](://jddixon.github.io/xlreg_cpp)
+[here](https://jddixon.github.io/xlreg_cpp)
