@@ -6,5 +6,5 @@
 
 using namespace std;
 
-const std::string VERSION      = "0.0.6";
-const std::string VERSION_DATE = "2015-12-22";
+const std::string VERSION      = "0.0.7";
+const std::string VERSION_DATE = "2016-03-01";
