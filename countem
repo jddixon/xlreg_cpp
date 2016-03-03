@@ -1,6 +1,8 @@
 # xlreg_cpp/countem
 
-pySloc $@ -v -C cpp \
-    bash:countem bash:in.the.beginning          \
-    txt:configure.ac txt:Makefile.am txt:src/Makefile.am            \
-    src/xlReg.h src/xlreg_client.cpp
+pySloc $@ -v -X "^build$|^waf$|^.waf" -L cpp $@  \
+    bash:countem                        \
+    txt:.gitignore.local                \
+    py:wscript                          \
+
+

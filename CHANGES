@@ -1,5 +1,8 @@
 # xlreg_cpp/CHANGES
 
+v0.1.0
+    2016-03-03
+        * strip out autotools, cmaks                                SLOC  104
 v0.0.7
     2016-03-01
         * update LICENSE                                            SLOC  337

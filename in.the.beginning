@@ -1,8 +1,0 @@
-# required by GNU standard
-touch AUTHORS NEWS README ChangeLog
-
-# automake creaes Makefile.in
-#
-echo "should have at least a skeletal configure.ac"
-(libtoolize; aclocal; autoheader; automake --add-missing; autoconf) >& junk
-cat junk
