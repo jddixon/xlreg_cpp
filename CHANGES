@@ -1,8 +1,11 @@
 # xlreg_cpp/CHANGES
 
+v0.1.1
+    2016-03-07
+        * basic waf build                                           SLOC  150 
 v0.1.0
     2016-03-03
-        * strip out autotools, cmaks                                SLOC  104
+        * strip out autotools, cmake                                SLOC  104
 v0.0.7
     2016-03-01
         * update LICENSE                                            SLOC  337

@@ -1,8 +1,10 @@
 # xlreg_cpp/countem
 
-pySloc $@ -v -X "^build$|^waf$|^.waf" -L cpp $@  \
-    bash:countem                        \
-    txt:.gitignore.local                \
-    py:wscript                          \
+pySloc $@ -v -X "^build$|^waf$|^.waf" -L cpp $@     \
+    bash:countem                                    \
+    bash:doWafBuild bash:doFullWafBuild             \
+    txt:.gitignore txt:.gitignore.local             \
+    py:wscript src/wscript                          \
+
 
 

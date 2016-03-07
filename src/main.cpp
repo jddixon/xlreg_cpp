@@ -1,4 +1,4 @@
-/* src/xlreg_clent.cpp */
+/* src/main.cpp */
 
 #include <getopt.h>
 #include <iostream>
