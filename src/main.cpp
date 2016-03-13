@@ -1,9 +1,9 @@
-/* src/main.cpp */
+/* xlreg_cpp/src/main.cpp */
 
 #include <getopt.h>
 #include <iostream>
 
-#include "xlReg.h"
+#include "xlreg_cpp.h"
 
 int main(int argc, char *argv[])
 {
@@ -23,29 +23,27 @@ int main(int argc, char *argv[])
     while ((c = getopt_long(argc, argv, "jVv", long_options, &option_index)) != -1) {
         
         switch(c) {
-        // if these are not wired in:
-        case '?':
         case 'h':
             // DEBUG
-            std::cout << "-h seen\n" << std::endl;
+            std::cout << "-h seen" << std::endl;
             // END
             /* display usage message */
             break;
         case 'j':
             // DEBUG
-            std::cout << "-j seen\n" << std::endl;
+            std::cout << "-j seen" << std::endl;
             // END
             justShow = 1;
             break;
         case 'V':
             // DEBUG
-            std::cout << "-V (UC) seen\n" << std::endl;
+            std::cout << "-V (UC) seen" << std::endl;
             // END
             showVersion = 1;
             break;
         case 'v':
             // DEBUG
-            std::cout << "-v (LC) seen\n" << std::endl;
+            std::cout << "-v (LC) seen" << std::endl;
             // END
             verbose = 1;
             break;

@@ -1,12 +1,12 @@
 # xlreg_c/wscript
    
 BASENAME = 'xlreg'
-LIBNAME  = BASENAME + 'CppLib'
+LIBNAME  = BASENAME + '_cpp_lCib'
 EXENAME  = 'xlRegCppClient'
 
 # waf combines these two to get the archive name
 APPNAME = BASENAME + '_cpp'
-VERSION = '0.1.1'
+VERSION = '0.2.0'
 
 top     = '.'
 out     = "build"
