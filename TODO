@@ -1,11 +1,15 @@
 # xlreg_cpp/TODO
 
+2016-03-11 (edited from 15-12-05)
+    * -V option displays version info                                   * DONE
+    * long --showVersion option does the same
+
 2015-12-05
-    * need simple showVersion executable
-    * this evolves into -V/--showVersion option on xlReg client
+    * need simple showVersion executable                                * DONE
 
 2015-10-11
-    * need countem script, which should count in.the.beginning
+    * need countem script,                                              * DONE
+        - which should count in.the.beginning                           * SKIP
 
 2014-03-06
     * rename sample1_unittest in Makefile                               * SKIP

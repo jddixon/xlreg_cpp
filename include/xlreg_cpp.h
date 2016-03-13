@@ -1,11 +1,9 @@
-/* xlreg/src/xlreg.h */
+/* xlreg_cpp/include/xlreg_cpp.h */
 
-#ifndef XLREG_H
-#define XLREG_H
+#ifndef XLREG_CPP_H
+#define XLREG_CPP_H
 
 #include <string>
-
-using namespace std;
 
 extern const std::string VERSION;
 extern const std::string VERSION_DATE;
