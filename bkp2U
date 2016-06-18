@@ -4,8 +4,14 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/cpp/xlreg_cpp
   
+  blListGen \
+    -d ../xlreg_cpp \
+    -1L  \
+    -u $DVCZ_UDIR \
+    -X build \
+    -X .ssh \
+    $@
   
-  pySloc -L cpp  -X build -X waf -X waflib -X vfmd-wscript -v $@
 else
   echo "DEV_BASE is not defined"
 fi
