@@ -1,5 +1,8 @@
 # xlreg_cpp/CHANGES
 
+v0.2.2
+    2016-07-12
+        * add ghpDoc/{css,img}                                      SLOC  889
 v0.2.1
     2016-06-18
         * drop autotools, add waf; add .dvcz, bkp2u, etc            SLOC  386
@@ -38,6 +41,7 @@ v0.0.1
 v0.0.0
     2014-03-06
         * initial version
+
 
 
 
