@@ -2,13 +2,12 @@
 project:xlreg_cpp
 package:xlreg_cpp
 mainlang:cpp
-version:0.2.0
-versionDate:2016-03-12
+version:0.2.1
+versionDate:2016-06-18
 :?dirs?:
 dir:std:ghpDoc
 dir:std:.dvcz
 dir:pkg:xlreg_cpp
-dir:local:img
 dir:local:include
 dir:local:src
 dir:local:test

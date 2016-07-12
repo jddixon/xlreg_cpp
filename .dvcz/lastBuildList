@@ -7,18 +7,20 @@ zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
 H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
 GQIDAQAB
 -----END RSA PUBLIC KEY-----
-xlreg_cpp v0.2.1
-2016-06-18 23:05:56
+xlreg_cpp v0.2.2
+2016-07-12 18:26:10
 # START CONTENT #
 xlreg_cpp
  .copyright da5046f3d0695c0b841b17b172db883917846836
  .dvcz
-  projCfg 9511116397d2e6aadfd258a6e12780615d4a1e1c
+  builds 72a34f182230c68b55414be78469302e2d2ea4c7
+  lastBuildList 23631267f6b324ebae1766894d32919ab9f83f8f
+  projCfg 8d3b3779ed1f5e091ba82eff2dbe6a78c8cc9db4
   projCfg.local 58a82f84a2326af2a8d7ce9034290930aac8c6ee
-  version e721908924e3078e35185e84c77cf06817a0adcf
+  version 1178ca1a5cfc4e0e1545eec683a672b7649f08f7
  .gitignore 88dbb7d2210c114bd236b552000d688d174fc416
  .gitignore.local 70b974efbba15adb400ad0a006b5a0355721b3eb
- CHANGES a5998851b0d16111b462b4bcdb6ceeed43386ab9
+ CHANGES 912e43d4d682f141bae9ade9134ce40ed576cff2
  LICENSE.md 42de349b4de7129392b3961ece4de861f00c0f6a
  README da39a3ee5e6b4b0d3255bfef95601890afd80709
  README.jdd b619022e7b1c6b03def6af2a74cc0e686a4efa2f
@@ -29,28 +31,29 @@ xlreg_cpp
  doFullWafBuild edb59e0bdc789c99d52c8fc3d5dcd28b8fadbfe9
  doWafBuild 42884a47d8bd905da2ea1f838c7e3f7353994bbd
  ghpDoc
+  css
+   LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
+   ghp.css 1d6ebe8a6cf8f61f4645a793cb087dfae2420f33
+   main.css 018ed80b8a6e6607bc7c08595fa5a7fa56853885
+   normalize.css cba40c7ce3d558d00ff79d7505ac3d348015ec9c
+  img
+   GitHub-Mark-32px.png fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8
+   chunk.jpg de2b27e41f1547fc14b13399f5906b4303b49657
+   chunk2.jpg d0593d312dbb8ea837c17b28cb639726e29ea93b
+   cluster-with-clients.jpg c167d04c0c6b5736ef9fe4cdc3fcce1956fdea78
+   simple-cluster.jpg 6b223ddd25937c1ef75ef328f36fc3436f10bd62
+   xl-registration.jpg 15cbf951f9db173a45428b32dcec87aca83bbdf0
+   xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
+   xlattice.batik.jpg debe9220564203118dc53df0f5a48d77669fe367
   index.md 6f0c7e582856f2b98adcb7c4b29d090301233da6
- img
-  GitHub-Mark-32px.png fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8
-  cluster-with-clients.jpg c167d04c0c6b5736ef9fe4cdc3fcce1956fdea78
-  simple-cluster.jpg 6b223ddd25937c1ef75ef328f36fc3436f10bd62
-  xl-registration.jpg 15cbf951f9db173a45428b32dcec87aca83bbdf0
-  xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
-  xlattice.batik.jpg debe9220564203118dc53df0f5a48d77669fe367
  in.the.beginning b510b3d769805f4d6f5fe4d4171aefb8cc15a0fc
  include
   xlreg_cpp.h bac813fa24ca2e09971d1a3af8aa1b36aa49f071
  installit 068e326b0219b9aeec9b7b7c793645401d07b2c9
  p.proto 6c50df9c67a7adf8af8ff8435d5eeab311962867
  src
-  Makefile 2ebb02254398684d4adbe1e8b80cd69453d72a6d
-  Makefile.am 832ea07f3e077c53856b13081956643e16054f5c
-  Makefile.in 2643b89f66fe8c9d0c233143382c68b581d100ab
-  config.h b90e0ecbe8104ce02e631ef138be21186684ec42
-  config.h.in 5df0d4119a8052a54b77b6720feec99e4f6da444
   main.cpp cac3ee440f62a4f106aafeca9be1e0c243fa20ef
-  stamp-h1 5194b22e1fa2e385a646c536f8293896fef68b21
-  version.cpp 5159d78be09334a3d71e5f94af582ece2fa5f761
+  version.cpp 56b6942192667338c2ea427a0eb978a8a5e6d060
   wscript 425291927b775542e7335297dcc451e5f024a176
   xlReg.h 310112bf2abb62bba0b2644dec05c22b774224dd
   xlRegCppClient f688c4883f8f61bcefd3b6a3af25c9361058cef2
@@ -88,7 +91,7 @@ xlreg_cpp
    version.str 1b390cd54a0c0d4f27fa7adf23e3c45536e9f37c
  testDataTestTemplate 8407450724e103cc445e817e2eb80186f62cc565
  waf 790ddd7d6d1eff24dc465f41ec36f2e2f6e17a00
- wscript 7033567483359a8ab5cdccefca2eb1672e12f10d
+ wscript a437cc085945e9ce68d2c954b912253161851275
 # END CONTENT #
 
-RaxcrhwLeG/+0TQwfSBvN2rg6AgyUXSx3PxUaE/p71eS+y032ULV+MCkls4Ge+sV1TTe5sv13j2CnzPou8l9TOaDGajIAHS/VB1lfcst7BUUvNWPmyDRIS54ybJ8icq6kBpkzse993ICg+j6PUH2uAJjd4JcmJ/nKAXckl8FyAtigUaot28ACyKHsW5uYllMS1a0/6QoTQ9StA2GHmIxKBdGO56SHYBZ5XlmzDzmeHgQ4fGTjDnmaUd6ZF/nYVaqR+Vsov8znaiKfZsQfhthdwLqz01xyH6OZ8IfhWNis1bEi2eKGr8FYyzehCs8CWiXnlbeAOIE3hRi8wC/Cq4ZbQ==
+nJzsk/y1PFZi3/vFnFHOeUOBnTBqjxhYpODjlcXJEKq+cBSd3HgUgkTMgplsIRwxee8lLU/BFB9DR3eLg1IGKwKMaw/CSQhH1qBt6xT3JGn3bhxYaAxGx7Ok9RXJlfoGRxF4T5KOAKmRxLlATGQzE+aJ2ftd3JJJKTkLEVyoDlsiv6pA1P1oyO9SPUzWf8QBqYO8yqQfjhVqHFJynEdFSwE2XgXQa+LlVnOkNQxE9VsKxWahuwQFM65fr1HyxIQNCXRErskCRxGbROBfMnPKWi3KQQD34DzlMSXBv8vUKbHiNf7TMKatVXgV7fbz0f+EaFT1YMIU2tFk037LBbgIEg==
