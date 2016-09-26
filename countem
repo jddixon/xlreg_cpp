@@ -5,7 +5,7 @@ then
   cd $DEV_BASE/cpp/xlreg_cpp
   
   
-  pySloc -L cpp  -X build -X waf -X waflib -X vfmd-wscript -v $@
+  pySloc -L cpp   -X build -X waf -X waflib -X vfmd-wscript -v $@
 else
   echo "DEV_BASE is not defined"
 fi
