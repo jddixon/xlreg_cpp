@@ -2,8 +2,8 @@
 project:xlreg_cpp
 package:xlreg_cpp
 mainlang:cpp
-version:0.2.1
-versionDate:2016-06-18
+version:0.2.2
+versionDate:2016-07-12
 :?dirs?:
 dir:std:ghpDoc
 dir:std:.dvcz
@@ -26,9 +26,8 @@ code:std:/var/app/sharedev/config/projCfg
 code:local:in.the.beginning
 code:local:p.proto
 code:local:testDataTestTemplate
-txt:std:.copyright
+txt:std:LICENSE-MIT.md
 txt:std:CHANGES
-txt:std:LICENSE.md
 txt:std:README
 txt:std:README.jdd
 txt:std:README.md

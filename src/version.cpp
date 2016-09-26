@@ -4,5 +4,5 @@
 #include "xlReg.h"
 
 
-const std::string VERSION      = "0.2.2";
-const std::string VERSION_DATE = "2016-07-12";
+const std::string VERSION      = "0.2.3";
+const std::string VERSION_DATE = "2016-09-25";

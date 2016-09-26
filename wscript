@@ -6,7 +6,7 @@ EXENAME  = 'xlRegCppClient'
 
 # waf combines these two to get the archive name
 APPNAME = BASENAME + '_cpp'
-VERSION = '0.2.2'
+VERSION = '0.2.3'
 
 top     = '.'
 out     = "build"
