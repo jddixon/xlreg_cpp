@@ -4,7 +4,7 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/cpp/xlreg_cpp
   
-  blListGen \
+  bl_listgen \
     -d ../xlreg_cpp \
     -1L  \
     -u $DVCZ_UDIR \
